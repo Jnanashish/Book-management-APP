@@ -1,0 +1,31 @@
+.search_con {
+  width: 1000px;
+  margin: 30px auto 45px;
+}
+.bookcard_con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 40px;
+}
+.search_input {
+  padding: 10px 20px;
+  width: 350px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+.search_btn {
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  background: #3245a5;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.search_btn:hover {
+  background: #142683;
+}

@@ -1,0 +1,42 @@
+.header {
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
+}
+.header_left h1 {
+  font-family: "Roboto", sans-serif;
+}
+.auth_btn {
+  padding: 8px 14px;
+  width: 145px;
+  height: 43px;
+  background: #142683;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+}
+
+.navtext {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #566474;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
